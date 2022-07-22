@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    background-color: #083B4C;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    padding: 30px;
+}
 .container{
     max-width: 900px;
     margin: 0 auto;
@@ -12,5 +24,27 @@
 .grid{  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 15px; 
+    gap: 25px; 
+}
+
+.cella{
+    background-color: #1389B2;
+    aspect-ratio: 1;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fizz{
+    background-color: #0CD6A1;
+}
+.buzz{
+    background-color: #FFD166;
+}
+.fizz-buzz{
+    background-color: #F0466F;
 }
